@@ -1,1 +1,8 @@
+#Basics
+bindsym $mod+Return exec foot
+bindsym $mod+Shift+q kill
+bindsym $mod+Shift+c reload
 
+#Move focus window
+bindsym $mod+Tab focus next
+bindsym $mod+Shift+Tab focus prev
