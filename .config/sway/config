@@ -1,1 +1,2 @@
-
+#Keybindings
+include ~/.config/sway/keybindings/basics
