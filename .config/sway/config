@@ -2,3 +2,6 @@ include /etc/sway/config.d/*
 
 #Keybindings
 include ~/.config/sway/keybindings/basics
+
+#Bar
+include ~/.config/sway/bar/waybar
