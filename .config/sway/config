@@ -1,2 +1,4 @@
+include /etc/sway/config.d/*
+
 #Keybindings
 include ~/.config/sway/keybindings/basics
