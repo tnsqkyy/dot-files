@@ -1,3 +1,14 @@
+# STATUS BAR
 bar {
+    position top
     swaybar_command waybar
+    icon_theme $icon_theme
+
+    colors {
+        statusline $fg
+        background $bg
+        focused_workspace   $accent $accent $bg
+        inactive_workspace  $bg     $bg     $fg
+        urgent_workspace    $bg     $bg     $fg
+    }
 }
