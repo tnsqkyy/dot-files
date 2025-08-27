@@ -1,0 +1,6 @@
+# Set wallpaper using swaybg
+
+# You can change your wallpaper directory or just rename the background file to wallpaper.png and
+# Put it into /usr/share/backgrounds/sway/
+
+output * bg /usr/share/backgrounds/sway/wallpaper.png fill
