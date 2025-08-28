@@ -11,3 +11,5 @@ waybar,....
 
 3. App launcher
  - Wofi
+
+You can possibly use the GTK4 config as backups
