@@ -12,4 +12,10 @@ waybar,....
 3. App launcher
  - Wofi
 
+4. Notification Center
+ - I highly recommend use dunst for its lightweight and
+more easily to config. But ofc you can use whatever you want!
+I'll give you some options!
+ - 
+
 You can possibly use the GTK4 config as backups
