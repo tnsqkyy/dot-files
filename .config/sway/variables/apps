@@ -1,0 +1,5 @@
+# Terminal
+set $terminal foot
+
+# Application Launcher
+set $launcher wofi

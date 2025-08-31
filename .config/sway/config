@@ -1,0 +1,46 @@
+
+
+
+# Variables
+include ~/.config/sway/variables/keys
+include ~/.config/sway/variables/apps
+include ~/.config/sway/variables/colors
+
+# Decorations
+## Bar
+include ~/.config/sway/decorations/bar/waybar
+## Wallpaper
+include ~/.config/sway/decorations/wallpaper/wallpaper
+## Windows
+include ~/.config/sway/decorations/windows
+
+## Effects
+include ~/.config/sway/decorations/effects
+
+# Keybindings
+include ~/.config/sway/keybindings/basics
+include ~/.config/sway/keybindings/layout
+include ~/.config/sway/keybindings/movement
+include ~/.config/sway/keybindings/resizing
+include ~/.config/sway/keybindings/workspaces
+
+
+
+include /etc/sway/config-vars.d/*
+
+
+# Display configuration
+## Output
+output eDP-1 {
+    mode 1920x1200@60Hz
+    pos 0 0
+    scale 1
+}
+
+# Idle configuration
+exec swayidle -w \
+         timeout 300 'swaylock -f -c 000000' \
+         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+         before-sleep 'swaylock -f -c 000000'
+
+include /etc/sway/config.d/*

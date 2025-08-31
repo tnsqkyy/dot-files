@@ -1,0 +1,17 @@
+# Border
+default_border normal 3
+
+# Gaps
+gaps inner 10
+gaps outer 10
+
+# No window titles
+for_window [app_id=".*"] border pixel 3
+
+# Window color
+# class                 border  backgr. text    indicator child_border
+client.focused          $accent $bg     $fg     $accent   $accent
+client.focused_inactive $bg     $bg     $fg     $bg       $bg
+client.unfocused        $bg     $bg     $fg     $bg       $bg
+client.urgent           $bg     $bg     $fg     $bg       $bg
+client.placeholder      $bg     $bg     $fg     $bg       $bg
